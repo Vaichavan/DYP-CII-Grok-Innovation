@@ -39,49 +39,61 @@ Documentation, setup instructions, and user guides for the system.
 
 ---
 
+````markdown
 ## ⚙️ Requirements
 
 Install the required dependencies using pip:
 
 ```bash
 pip install opencv-python cvzone numpy
+````
 
--------
+---
 
+## 🧪 How to Run
 
-🧪 How to Run
-🖥️ Allkeyboard (Computer Vision Automation)
-bash
-Copy
-Edit
+### 🖥️ Allkeyboard (Computer Vision Automation)
+
+```bash
 cd Allkeyboard_pycharm
 python main.py
-🔐 Safe Door Robot System
-bash
-Copy
-Edit
+```
+
+### 🔐 Safe Door Robot System
+
+```bash
 cd Safe_door
 python 1robotmobile.py
+```
+
 You can also run other modules depending on your configuration:
 
-2robotcp.py – for the control panel interface
+* `2robotcp.py` – for the control panel interface
+* `alaram.py` – for alarm or alert triggers
 
-alaram.py – for alarm or alert triggers
+---
 
-📎 Notes
-Ensure your camera is connected and accessible via OpenCV.
+## 📎 Notes
 
-Some modules require additional hardware (such as a Raspberry Pi, sensors, or motors).
+* Ensure your camera is connected and accessible via OpenCV.
+* Some modules may require additional hardware (for example: Raspberry Pi, sensors, motors).
+* Refer to the `Guide_pdf` folder for detailed setup and usage instructions.
 
-Refer to the Guide_pdf folder for detailed setup and usage instructions.
+---
 
-📌 License
-This project is intended exclusively for academic, research, and innovation showcase purposes under the DYP-CII Grok Innovation framework.
+## 📌 License
 
-🙏 Acknowledgements
-Developed using CVZone by Murtaza Hassan
+This project is intended exclusively for academic, research, and innovation showcase purposes under the **DYP-CII Grok Innovation** framework.
 
-Inspired by real-world robotics and smart security applications
+---
+
+## 🙏 Acknowledgements
+
+* Developed using [CVZone](https://github.com/cvzone/cvzone) by Murtaza Hassan
+
+```
+```
+
 
 Created by: Vaichavan
 
