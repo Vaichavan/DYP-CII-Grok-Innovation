@@ -45,3 +45,44 @@ Install the required dependencies using pip:
 
 ```bash
 pip install opencv-python cvzone numpy
+
+-------
+
+
+🧪 How to Run
+🖥️ Allkeyboard (Computer Vision Automation)
+bash
+Copy
+Edit
+cd Allkeyboard_pycharm
+python main.py
+🔐 Safe Door Robot System
+bash
+Copy
+Edit
+cd Safe_door
+python 1robotmobile.py
+You can also run other modules depending on your configuration:
+
+2robotcp.py – for the control panel interface
+
+alaram.py – for alarm or alert triggers
+
+📎 Notes
+Ensure your camera is connected and accessible via OpenCV.
+
+Some modules require additional hardware (such as a Raspberry Pi, sensors, or motors).
+
+Refer to the Guide_pdf folder for detailed setup and usage instructions.
+
+📌 License
+This project is intended exclusively for academic, research, and innovation showcase purposes under the DYP-CII Grok Innovation framework.
+
+🙏 Acknowledgements
+Developed using CVZone by Murtaza Hassan
+
+Inspired by real-world robotics and smart security applications
+
+Created by: Vaichavan
+
+
